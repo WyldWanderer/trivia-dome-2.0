@@ -1,4 +1,4 @@
-###Trivia Dome 2.0!###
+**Trivia Dome 2.0!**
 
 **Why?**
 
