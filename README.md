@@ -1,14 +1,14 @@
-**Trivia Dome 2.0!**
+# Trivia Dome 2.0!
 
-**Why?**
+## Why?
 
 Due to Tyler’s continual dominance at trivia, a new game type has been proposed where everybody get’s to answer a question with those who are correct gaining points and those who are incorrect don’t lose points. 
 
-**What?** 
+## What? 
 
 Trivia app 2.0! Let’s build a multiple choice trivia app that keeps track of scores using [https://the-trivia-api.com/docs/](https://the-trivia-api.com/docs/) as our API
 
-**Structure**
+## Structure
 
 Login page (MVP, allow for a name to be input to be used during the game)
 
