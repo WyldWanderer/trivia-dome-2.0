@@ -3,6 +3,7 @@ import CategoryButton from './CategoryButton'
 import DisplayQuestion from './DisplayQuestion';
 
 const HomeScreen = (props) => {
+
     return ( 
         <>
             <h1>Trivia Dome 2.0!!!!!</h1>
@@ -14,6 +15,10 @@ const HomeScreen = (props) => {
             </section>
             <div>
                 <button onClick={() => props.resetQA()}>Clear Question</button>
+            </div>
+            <div>
+                <button onClick={() => props.timer()}>Start Timer</button>
+                <h3>{props.timeLeft}</h3>
             </div>
             <section>
                 <DisplayQuestion question={props.question}/>

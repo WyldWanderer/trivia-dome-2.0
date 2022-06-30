@@ -1,7 +1,6 @@
 import React from "react";
 
 const DisplayQuestion = (props) => {
-    console.log(props)
     if (props.question) {
         return (
             <h3>
