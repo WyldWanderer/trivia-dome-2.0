@@ -1,0 +1,356 @@
+[
+    {
+      "category": "Arts & Literature",
+      "id": "622a1c397cc59eab6f950f0e",
+      "correctAnswer": "Alexander Pushkin",
+      "incorrectAnswers": [
+        "Nikolai Gogol",
+        "Leo Tolstoy",
+        "Henryk Sienkiewicz"
+      ],
+      "question": "Which author wrote 'Eugene Onegin'?",
+      "tags": [
+        "arts_and_literature"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Food & Drink",
+      "id": "6250069e0d86c8f685d80ef0",
+      "correctAnswer": "Shaped pasta",
+      "incorrectAnswers": [
+        "Soup pasta",
+        "Stuffed pasta",
+        "Ribbon pasta"
+      ],
+      "question": "What type of pasta is farfalle?",
+      "tags": [
+        "food",
+        "italy",
+        "food_and_drink"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Geography",
+      "id": "622a1c387cc59eab6f950a74",
+      "correctAnswer": "Norway",
+      "incorrectAnswers": [
+        "Estonia",
+        "Latvia",
+        "Lithuania"
+      ],
+      "question": "Which of these countries borders Finland?",
+      "tags": [
+        "geography"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Society & Culture",
+      "id": "622a1c367cc59eab6f950135",
+      "correctAnswer": "Minos",
+      "incorrectAnswers": [
+        "Atticus",
+        "Icarus",
+        "Perseus"
+      ],
+      "question": "In Greek mythology, who hired Daedalus to construct the labyrinth?",
+      "tags": [
+        "society_and_culture"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Sport & Leisure",
+      "id": "622a1c367cc59eab6f95003b",
+      "correctAnswer": "Kareem Abdul-Jabbar",
+      "incorrectAnswers": [
+        "Michael Jordan",
+        "Yao Ming",
+        "Kobe Bryant"
+      ],
+      "question": "Who was the NBA's most valuable player in 1976, 1977 and 1980?",
+      "tags": [
+        "sport",
+        "basketball"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Geography",
+      "id": "6237425acb85f7ce9e949dc4",
+      "correctAnswer": "Mogadishu",
+      "incorrectAnswers": [
+        "Tashkent",
+        "Dushanbe",
+        "Majuro"
+      ],
+      "question": "What is the capital city of Somalia?",
+      "tags": [
+        "geography"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Arts & Literature",
+      "id": "622a1c367cc59eab6f950181",
+      "correctAnswer": "James Whistler",
+      "incorrectAnswers": [
+        "Andy Warhol",
+        "Grant Wood",
+        "Eddie Harold"
+      ],
+      "question": "Which american artist is known for a portrait of his mother?",
+      "tags": [
+        "arts_and_literature"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Science",
+      "id": "6243348ccfaae40c1296144e",
+      "correctAnswer": "A Joey",
+      "incorrectAnswers": [
+        "A Maggot",
+        "A Piglet",
+        "A Poult"
+      ],
+      "question": "A young kangaroo is known as what?",
+      "tags": [
+        "science"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Science",
+      "id": "62433440cfaae40c12961430",
+      "correctAnswer": "A Buck",
+      "incorrectAnswers": [
+        "A Ram",
+        "A Billy",
+        "A Boar"
+      ],
+      "question": "What is a male hamster known as?",
+      "tags": [
+        "science"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Music",
+      "id": "622a1c397cc59eab6f950d88",
+      "correctAnswer": "Dream Theater",
+      "incorrectAnswers": [
+        "Jars of Clay",
+        "Three 6 Mafia",
+        "The Velvet Underground"
+      ],
+      "question": "Which band includes 'Mike Portnoy'?",
+      "tags": [
+        "music"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Music",
+      "id": "622a1c397cc59eab6f950d7a",
+      "correctAnswer": "Judas Priest",
+      "incorrectAnswers": [
+        "Arctic Monkeys",
+        "Feeder",
+        "Bring Me the Horizon"
+      ],
+      "question": "Which band includes 'Glenn Tipton'?",
+      "tags": [
+        "music"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Arts & Literature",
+      "id": "622a1c397cc59eab6f950e4b",
+      "correctAnswer": "Christopher Tolkien",
+      "incorrectAnswers": [
+        "Neil Gaiman",
+        "J. R. R. Tolkien",
+        "J. K. Rowling"
+      ],
+      "question": "Which author wrote 'The War of the Jewels'?",
+      "tags": [
+        "literature",
+        "arts_and_literature"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Society & Culture",
+      "id": "622a1c357cc59eab6f94fd3d",
+      "correctAnswer": "Swahili",
+      "incorrectAnswers": [
+        "Yoruba",
+        "Hindi",
+        "Latin"
+      ],
+      "question": "\"Hakuna Matata\" is a phrase from which language?",
+      "tags": [
+        "language",
+        "society_and_culture"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Geography",
+      "id": "6237412ccb85f7ce9e949d4a",
+      "correctAnswer": "Vaduz",
+      "incorrectAnswers": [
+        "Naypyidaw",
+        "Vilnius",
+        "Muscat"
+      ],
+      "question": "What is the capital city of Liechtenstein?",
+      "tags": [
+        "capital_cities",
+        "europe"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Science",
+      "id": "622a1c3f7cc59eab6f9523a6",
+      "correctAnswer": "Laxative",
+      "incorrectAnswers": [
+        "Analgesic",
+        "Anti inflammatory",
+        "Suppository"
+      ],
+      "question": "What is the word for a medicine that hastens the emptying of the bowels?",
+      "tags": [
+        "medicine",
+        "words",
+        "science"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Arts & Literature",
+      "id": "622a1c397cc59eab6f950f8f",
+      "correctAnswer": "William Shakespeare",
+      "incorrectAnswers": [
+        "Arthur C. Clarke",
+        "Isaac Newton",
+        "Enid Blyton"
+      ],
+      "question": "Which author wrote 'As You Like It'?",
+      "tags": [
+        "theater",
+        "arts_and_literature"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "medium",
+      "regions": []
+    },
+    {
+      "category": "Music",
+      "id": "622a1c397cc59eab6f950d84",
+      "correctAnswer": "Kiss",
+      "incorrectAnswers": [
+        "Swans",
+        "The Pussycat Dolls",
+        "Three 6 Mafia"
+      ],
+      "question": "Which band includes 'Ace Frehley'?",
+      "tags": [
+        "music"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Food & Drink",
+      "id": "622a1c367cc59eab6f9502af",
+      "correctAnswer": "Melon ",
+      "incorrectAnswers": [
+        "Cucumber",
+        "Peach",
+        "Pineapple"
+      ],
+      "question": "What Kind Of Fruit Is A Canteloupe?",
+      "tags": [
+        "food_and_drink"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "hard",
+      "regions": []
+    },
+    {
+      "category": "Food & Drink",
+      "id": "622a1c367cc59eab6f9502bc",
+      "correctAnswer": "Pasta ",
+      "incorrectAnswers": [
+        "Chicken",
+        "Cheese",
+        "Bread"
+      ],
+      "question": "What Is Ravioli? ",
+      "tags": [
+        "food",
+        "general_knowledge",
+        "words",
+        "food_and_drink"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "easy",
+      "regions": []
+    },
+    {
+      "category": "Geography",
+      "id": "62602d254b176d54800e3c82",
+      "correctAnswer": "China",
+      "incorrectAnswers": [
+        "Mongolia",
+        "India",
+        "Australia"
+      ],
+      "question": "Where would you find the city of Beijing?",
+      "tags": [
+        "cities",
+        "general_knowledge",
+        "geography"
+      ],
+      "type": "Multiple Choice",
+      "difficulty": "easy",
+      "regions": []
+    }
+  ]

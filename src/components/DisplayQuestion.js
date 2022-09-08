@@ -1,11 +1,20 @@
 import React from "react";
 
 const DisplayQuestion = (props) => {
+    console.log(props)
     if (props.question) {
         return (
-            <h3>
-                {props.question[0].question}
-            </h3>
+            <section>
+                <h3>
+                    {props.question.question}
+                </h3>
+                <button>Get Hints</button>
+                <input/>
+            </section>
+        )
+    } else {
+        return (
+            <h1>There was an error getting a question</h1>
         )
     }
     
