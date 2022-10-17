@@ -1,45 +1,23 @@
-import HomeScreen from "./components/HomeScreen"
 import React, {useState} from 'react'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import WelcomePage from "./pages/Homepage"
+import Nav from './components/Nav'
+import SecuredPage from './pages/Securedpage'
+
 
 
 const App = () => {
-  const categories = ["Arts & Literature", "Film & TV", "Food & Drink", "General", "Geography", "History", "Music", "Science", "Society & Culture", "Sport & Leisure"]
-  const [question, addQuestion] = useState({})
-  
-
-  const getQuestion = (category, difficulty="easy") => {
-    fetch(`http://localhost:9000/api/v1/questions/${category}/${difficulty}`)
-      .then ((response) => {
-        if(response.ok) {
-          return response.json()
-        } else {
-          throw response.status;
-        }
-      })
-      .then((data) => {
-        let questionData = data.data[0]
-        addQuestion(question => ({
-          ...question,
-          ...questionData
-        }));
-      });
-  };
-
-  const resetQA = () => {
-    addQuestion("")
-    //addAnswer("")
-  };
-
   return (
-    <div className="App">   
-      <HomeScreen 
-        categories={categories} 
-        getQuestion={getQuestion} 
-        question={question}
-        resetQA={resetQA}
-      />
-    </div>
-  );
+    <>
+      <Nav />
+      <BrowserRouter>
+        <Routes>
+          <Route exact path="/" element={<WelcomePage />} />
+          <Route path="/secured" element={<SecuredPage/>} />
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
 };
 
 export default App;
