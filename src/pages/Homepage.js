@@ -1,44 +1,12 @@
-import React, {useState} from 'react';
-import HomeScreen from '../components/HomeScreen';
+import React from 'react';
 
 const Home = () => {
-    const categories = ["Arts & Literature", "Film & TV", "Food & Drink", "General", "Geography", "History", "Music", "Science", "Society & Culture", "Sport & Leisure"]
-    const [question, addQuestion] = useState({})
+  return (
+    <div>
+      <h1 className="text-green-800 text-4xl">Welcome to the Homepage</h1>
+    </div>
+  );
     
-  
-    const getQuestion = (category, difficulty="easy") => {
-      fetch(`http://localhost:9000/api/v1/questions/${category}/${difficulty}`)
-        .then ((response) => {
-          if(response.ok) {
-            return response.json()
-          } else {
-            throw response.status;
-          }
-        })
-        .then((data) => {
-          let questionData = data.data[0]
-          addQuestion(question => ({
-            ...question,
-            ...questionData
-          }));
-        });
-    };
-  
-    const resetQA = () => {
-      addQuestion("")
-      //addAnswer("")
-    };
-  
-    return (
-      <div className="App">   
-        <HomeScreen 
-          categories={categories} 
-          getQuestion={getQuestion} 
-          question={question}
-          resetQA={resetQA}
-        />
-      </div>
-    );
 };
 
 export default Home;
