@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { PutCommand, ScanCommand } = require ("@aws-sdk/lib-dynamodb")
+const { PutCommand, QueryCommand } = require ("@aws-sdk/lib-dynamodb")
 const { ddbDocClient } = require("../../dbDocClient")
 
 
@@ -32,15 +32,13 @@ exports.getQuestion = async (req, res) => {
 const checkForPastQuestion = async (questionId) => {
     const params = {
         TableName: "past_trivia_questions",
-        ProjectionExpression: "id",
-        ExpressionAttributeNames: {"#idNum": "id"},
-        FilterExpression: "#idNum = :i",
+        KeyConditionExpression: "id = :i",
         ExpressionAttributeValues: {
             ":i": questionId
         }
     };
     try {
-        const data = await ddbDocClient.send(new ScanCommand(params));
+        const data = await ddbDocClient.send(new QueryCommand(params));
         return data.Count
     } catch (err) {
         console.log("Error:", err.stack)
